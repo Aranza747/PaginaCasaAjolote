@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería</title>
+    <link href="../statics/styles/galeria.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
 <?php
     session_name("sesion");
     session_id("1");
@@ -18,7 +29,7 @@ $casa = (isset($_POST["casa"])&& $_POST["casa"] != "")? $_POST["casa"] : false;
                 <input type='submit' value='Subir'> 
                 <input type='reset' value='Borrar'>
             </fieldset>
-        </form>
+        </form><br>
         <button><a href='./sesion.php'>Regresar al inicio</a></button> <br><br>
         <form action='./cerrarsesion.php' method='post' target='_self'>
                     <button>Cerrar sesion </button>
@@ -190,4 +201,6 @@ $casa = (isset($_POST["casa"])&& $_POST["casa"] != "")? $_POST["casa"] : false;
             }    
     }
 
-?>  
+?>      
+</body>
+</html>
