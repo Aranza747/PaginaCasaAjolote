@@ -18,21 +18,28 @@
 <body>
     <form action="../dynamics/sesion.php" method="post">
         <fieldset>
-            <legend>Crear una cuenta</legend>
-            <label for="apodo"> Apodo: </label>
+            <link href="../statics/styles/registro.css" type="text/css" rel="stylesheet">
+            
+            <legend class="font1" >Crear una cuenta</legend>
+
+            <label class="font2" for="apodo"> Apodo: </label>
                 <input type="texto" name="apodo"> <br> <br>
-            <label for="nombre"> Nombre: </label>
+
+            <label class="font2" for="nombre"> Nombre: </label>
                 <input type="texto" name="nombre"> <br> <br>
-            <label for="apellido"> Apellido: </label>
+
+            <label class="font2" for="apellido"> Apellido: </label>
                 <input type="texto" name="apellido"> <br> <br>
-            <label for="casa"> Casa: </label>
-                <select name="casa">
+
+            <label class="font2" for="casa"> Casa: </label>
+                <select class="font2" name="casa">
                     <option value="ajolotes">Ajolotes</option>
                     <option value="vaquitas">Vaquitas marinas</option>
                     <option value="teporingos">Teporingos</option>
                     <option value="halcones">Halcones</option>
                 </select> <br> <br>
-            <button type="submit">Crear</button>
+
+            <button class="font2" type="submit">Crear</button>
         </fieldset>
     </form>
 </body>
