@@ -7,10 +7,22 @@
     font-family: "fuente2";
     src: url("../fonts/fuente.ttf");
 }
-
-/*BODY-----------------------------------------------------------------------------*/
-
-#title, #title2, #title3, #title4, #title5, #title6,#title7{
+/*HEADER
+--------------------------------------------------------------------------*/
+.title{
     font-family: "fuente", 'Courier New', cursive;
-    color:rgb(223, 51, 232);
+    color: #c41584;
+}
+
+/*BODY
+--------------------------------------------------------------------------*/
+
+.font2{
+    font-family: "fuente2", 'Courier New', serif;
+    color: black;
+    border-color: #e774bd;
+}
+
+body{
+    background-color: rgb(240, 244, 198);
 }
