@@ -23,14 +23,14 @@
 }
 
 body{
-    background-color: azure;
+    background-color: rgb(240, 244, 198);
 }
 
 fieldset{
     margin: auto;
     border-style: groove;
-    border-color: #c41584;
-    background-color: rgb(241, 235, 216);
+    border-color: #e774bd;
+    background-color: rgb(201, 243, 255);
     border-radius:10px 10px 10px 10px;
     box-shadow:5px 5px 5px 5px   #292f20;
 }       
