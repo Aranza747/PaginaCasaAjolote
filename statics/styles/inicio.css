@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "fuente";
+    src: url("../fonts/titles.ttf");
+}
+
+@font-face {
+    font-family: "fuente2";
+    src: url("../fonts/fuente.ttf");
+}
+
+/*BODY-----------------------------------------------------------------------------*/
+
+body{
+    background-color: rgb(240, 244, 198);
+}
+
+.title, #title2{
+    font-family: "fuente", 'Courier New', cursive;
+    color:rgb(223, 51, 232);
+}
+
+#title2{
+    color:rgb(217, 101, 180);
+}
+
+.text{
+    font-family: "fuente2", 'Courier New', serif;
+    color: black;
+}
+
+fieldset{
+    width:500px;
+    height:auto;
+    margin: auto;
+    border-style: groove;
+    border-color: #e774bd;
+    background-color: rgb(201, 243, 255);
+    border-radius:10px 10px 10px 10px;
+    box-shadow:5px 5px 0px 0px   #292f20;
+}       
+
+#button{
+    background-color: #ffb5fe;
+    border-color: #e774bd;
+}
