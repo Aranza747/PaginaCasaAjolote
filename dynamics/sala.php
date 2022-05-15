@@ -17,7 +17,7 @@ $casa = (isset($_POST["casa"])&& $_POST["casa"] != "")? $_POST["casa"] : false;
                 <input type='reset' value='Borrar'>
             </fieldset>
         </form>
-        <button><a href='./sesion.php'>Regresar al inicio</a></button>
+        <button><a href='./sesion.php'>Regresar al inicio</a></button> <br><br>
         <form action='./cerrarsesion.php' method='post' target='_self'>
                     <button>Cerrar sesion </button>
                 </form>

@@ -17,7 +17,7 @@
 </head>
 <body>
     <form action="../dynamics/sesion.php" method="post">
-        <fieldset>
+        <fieldset style="width:500px">
             <link href="../statics/styles/registro.css" type="text/css" rel="stylesheet">
             
             <legend class="font1" >Crear una cuenta</legend>
