@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "fuente";
+    src: url("../fonts/titles.ttf");
+}
+
+@font-face {
+    font-family: "fuente2";
+    src: url("../fonts/fuente.ttf");
+}
+
+/*BODY-----------------------------------------------------------------------------*/
+
+#title, #title2, #title3, #title4, #title5, #title6,#title7{
+    font-family: "fuente", 'Courier New', cursive;
+    color:rgb(223, 51, 232);
+}
+
+.text{
+    font-family: "fuente2", 'Courier New', serif;
+    color: black;
+}

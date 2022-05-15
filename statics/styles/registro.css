@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "fuente";
+    src: url("../fonts/titles.ttf");
+}
+
+@font-face {
+    font-family: "fuente2";
+    src: url("../fonts/fuente.ttf");
+}
+/*HEADER
+--------------------------------------------------------------------------*/
+.font1{
+    font-family: "fuente", 'Courier New', cursive;
+    color: #c41584;
+}
+
+/*BODY
+--------------------------------------------------------------------------*/
+
+.font2{
+    font-family: "fuente2", 'Courier New', serif;
+    color: black;
+}
+
+body{
+    background-color: azure;
+}
+
+fieldset{
+    margin: auto;
+    border-style: groove;
+    border-color: #c41584;
+    background-color: rgb(241, 235, 216);
+    border-radius:10px 10px 10px 10px;
+    box-shadow:5px 5px 5px 5px   #292f20;
+}       
