@@ -14,19 +14,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar sesion</title>
+    <title >Iniciar sesion</title>
+    <link href="../statics/styles/sesion.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <h1>Casas CW 2022</h1>
+    <h1 class="title" ><center>Casas CW 2022</center></h1>
 <form action="./sesion.php" method="post" target="_self">
         <fieldset>
-            <legend>Inicio de sesión</legend>
-            <label for="Usuario"> Apodo: </label>
+            <legend id="title2" class="text">Inicio de sesión</legend>
+            <label class="text" for="Usuario"> Apodo: </label>
                 <input type="texto" name="nombre_usuario"> <br> <br>
-            <button type="submit">Ingresar</button>
-            <button type=""></button>
+            <button id="button" class="text" type="submit">Ingresar</button>
         </fieldset>
     </form>  
-    <a href="../registro.html">Crear cuenta</a>
+    <br><a href="../registro.html" class="text"><center>Crear cuenta</center></a>
 </body>
 </html>

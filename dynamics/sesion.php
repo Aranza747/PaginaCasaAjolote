@@ -2,7 +2,7 @@
     session_name("sesion");
     session_id("1");
     session_start();
-    
+
     $apodo = (isset($_POST["apodo"])&& $_POST["apodo"] != "")? $_POST["apodo"] : false;
     $casa = (isset($_POST["casa"])&& $_POST["casa"] != "")? $_POST["casa"] : false;
     if ($apodo!=false && $casa != false){
