@@ -15,7 +15,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title >Iniciar sesion</title>
-    <link href="../statics/styles/sesion.css" type="text/css" rel="stylesheet">
+    <link href="../statics/styles/inicio.css" type="text/css" rel="stylesheet">
 </head>
 <body>
     <h1 class="title" ><center>Casas CW 2022</center></h1>
